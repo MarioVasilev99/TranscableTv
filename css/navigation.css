@@ -1,0 +1,25 @@
+.nav {
+    text-align: right;
+    font-size: var(--navigation-font-size, 15px);
+    font-weight: 600;
+}   
+
+.nav ul {
+    display: flex;
+    padding-bottom: 0;
+}
+
+.nav ul li {
+    display: block;
+}
+
+.nav a {
+    display: block;
+    padding: 0.5em 1em;
+    color: #333;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: rgb(0, 136, 122);
+}

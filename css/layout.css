@@ -1,0 +1,54 @@
+body {
+    height: 100vh;
+}
+
+.site {
+    max-width: var(--layout-width, 60em);
+    margin: 0 auto;
+}
+
+/* Header Styles --- START*/
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 0;
+}
+
+.site-branding h1 {
+    padding-top: 0.5em;
+    font-size: var(--site-title-font-size, 15px);
+}
+
+.site-branding a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Header Styles --- END*/
+
+/* ----------------------------- */
+
+/* Main Styles --- START */
+
+.site-main {
+    height: 60vh;
+}
+
+.site-main img {
+    position: absolute;
+    width: 100vw;
+    height: auto;
+}
+
+/* Main Styles --- END */
+
+/* Footer Styles --- START */
+
+
+
+
+/* Footer Styles --- END */
+
+
