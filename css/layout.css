@@ -33,7 +33,7 @@ body {
 /* Main Styles --- START */
 
 .site-main {
-    height: 60vh;
+    height: 62vh;
 }
 
 .site-main img {
@@ -46,7 +46,42 @@ body {
 
 /* Footer Styles --- START */
 
+.site-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 2px solid black;
 
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    padding: 0 2em;
+
+    background-color: var(--footer-bg-color,rgb(5, 57, 107));
+    color: var(--footer-font-color,rgb(237, 245, 224));
+}
+
+.foot-item {
+    width: 32%;
+}
+
+.contacts ul,
+.useful-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.useful-links li a {
+    text-decoration: none;
+    color: var(--footer-font-color,rgb(237, 245, 224));
+}
+
+.useful-links li a:hover {
+    color: var(--footer-link-hover-color, rgb(92, 219, 148));
+}
 
 
 /* Footer Styles --- END */

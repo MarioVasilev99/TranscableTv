@@ -6,8 +6,13 @@
     --layout-width: 60em;
     --layout-padding-b: 1.5em;
 
-    --site-title-font-size: 1.5em;
+    --site-title-font-size: 1.7em;
 
-    --navigation-font-size: 13px;
+    --navigation-font-size: 0.9em;
+
+    /* FOOTER */
+    --footer-bg-color: rgb(5, 57, 107);
+    --footer-font-color: rgb(237, 245, 224);
+    --footer-link-hover-color: rgb(92, 219, 148);
 
 }
