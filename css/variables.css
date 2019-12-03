@@ -11,7 +11,8 @@
     --navigation-font-size: 0.9em;
 
     /* FOOTER */
-    --footer-bg-color: rgb(5, 57, 107);
+    /* --footer-bg-color: rgb(5, 57, 107); */
+    --footer-bg-color: black;
     --footer-font-color: rgb(237, 245, 224);
     --footer-link-hover-color: rgb(92, 219, 148);
 
