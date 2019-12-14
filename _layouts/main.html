@@ -14,7 +14,7 @@
             
             <div class="site-branding">
 
-                <h1><a href="/">{{ site.title }}</a></h1>
+                <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
 
             </div>
 
@@ -23,7 +23,7 @@
                     {% for page in site.pages %}
 
                         {% if page.title %}
-                        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                        <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
                         {% endif %}
 
                     {% endfor %}
