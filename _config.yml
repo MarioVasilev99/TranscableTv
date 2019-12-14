@@ -1,6 +1,7 @@
 title: ТРАНСКЕЙБЪЛ ТВ
 email: your-email@example.com
-description: Transcable TV Website
+description: Transcable Tv Website
+destination: docs
 baseurl: ""
 url: ""
 twitter_username: jekyllrb
