@@ -7,7 +7,9 @@
     --layout-padding-b: 1.5em;
 
     --site-title-font-size: 1.7em;
-    --site-main-width: 60em;
+    --site-main-width: 100%;
+
+    --site-content-width: 60em;
 
     --navigation-font-size: 0.9em;
 
