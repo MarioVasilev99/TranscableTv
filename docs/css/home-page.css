@@ -33,4 +33,46 @@
 
 .main-content {
     max-width: var(--site-content-width, 60em);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5em 0;
+    justify-content: space-between;
+}
+
+.main-content .about-us {
+    width: 40%;
+}
+
+.about-us h2 {
+    padding-bottom: 1em;
+    font-weight: 600;
+}
+
+.about-us h2::after {
+    content: " ";
+    display: block;
+    border: 2px solid black;
+    border-radius: 0.5px;
+    width: 15%;
+    margin-top: 0.3em;
+}
+
+.main-content .images {
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+}
+
+.main-content .images img {
+    height: 50vh;
+    width: 43%;
+    object-fit: cover;
+    border-radius: 2px;
+    -webkit-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.19);
+    -moz-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.19);
+    box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.19);
+}
+
+.tv-remote-img {
+    object-position: 78% 0;
 }
