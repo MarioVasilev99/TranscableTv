@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .main-image-wrapper {
@@ -59,6 +60,7 @@
 
 .main-content .images {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 55%;
 }

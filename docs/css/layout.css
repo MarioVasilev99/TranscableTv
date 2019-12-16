@@ -43,6 +43,7 @@ html, body {
     flex: 1 0 auto;
     width: var(--site-main-width, 100%);
     height: auto;
+    align-items: center;
 }
 
 /* Main Styles --- END */

@@ -9,7 +9,8 @@
 </head>
 <body>
     <div class="site">
-
+        
+        <input type="checkbox" id="site-nav-toggle" class="site-nav-toggle">        
         <header class="site-header">
             
             <div class="site-branding">
@@ -17,6 +18,8 @@
                 <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
 
             </div>
+
+            <label for="site-nav-toggle" class="site-nav-label">Menu</label>
 
             <nav class="nav">
                 <ul>
@@ -91,6 +94,6 @@
         </footer>
 
     </div>
-
+    <script src="../pages/test.js"></script>
 </body>
 </html>

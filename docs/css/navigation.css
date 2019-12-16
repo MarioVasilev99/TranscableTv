@@ -23,3 +23,19 @@
 .nav a:hover {
     color: rgb(0, 136, 122);
 }
+
+.site > input {
+    display: block;
+    position: absolute;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+/* .site-nav-toggle + .site-header .nav > ul {
+    background-color: red;
+}
+
+.site-nav-toggle:checked + .site-header .nav > ul {
+    background-color: green;
+}  */
+
