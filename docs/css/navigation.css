@@ -1,1 +1,0 @@
-.nav{text-align:right;font-size:var(--navigation-font-size, 15px);font-weight:600}.nav ul{display:-webkit-box;display:flex;padding-bottom:0}.nav a,.nav ul li,.site>input{display:block}.nav a{padding:.5em 1em;color:#333;text-decoration:none}.nav a:hover{color:#00887a}.site>input{position:absolute;visibility:hidden;pointer-events:none}

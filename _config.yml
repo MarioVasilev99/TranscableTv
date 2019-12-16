@@ -2,6 +2,7 @@ title: ТРАНСКЕЙБЪЛ ТВ
 email: your-email@example.com
 description: Transcable Tv Website
 destination: docs
+# baseurl: ""
 baseurl: "/TranscableTv"
 twitter_username: jekyllrb
 github_username:  jekyll
@@ -31,3 +32,8 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+#   - package.json
+#   - package-lock.json
+#   - gulpfile.js
+
+
