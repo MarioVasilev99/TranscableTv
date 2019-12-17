@@ -1,3 +1,7 @@
+.site-header {
+    background-color: var(--theme-color-5, #AAABB8);
+}
+
 .nav {
     text-align: right;
     font-size: var(--navigation-font-size, 15px);
@@ -17,6 +21,7 @@
     display: block;
     padding: 0.5em 1em;
     color: #333;
+    font-weight: 700;
     text-decoration: none;
 }
 
