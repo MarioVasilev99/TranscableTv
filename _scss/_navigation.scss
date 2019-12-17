@@ -21,12 +21,13 @@
     display: block;
     padding: 0.5em 1em;
     color: #333;
-    font-weight: 700;
+    font-weight: 400;
     text-decoration: none;
 }
 
 .nav a:hover {
     color: rgb(0, 136, 122);
+    font-weight: 600;
 }
 
 .site > input {

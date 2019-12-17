@@ -53,6 +53,7 @@ gulp.task("watch", function() {
 
 	gulp.watch( './_scss/*.scss' ).on('change', browserSync.reload );
 	gulp.watch( './pages/*.html' ).on('change', browserSync.reload );
+	gulp.watch( './*.html' ).on('change', browserSync.reload );
 	gulp.watch( 'docs/**/*.html' ).on('change', browserSync.reload );
 	gulp.watch( 'docs/**/*.js' ).on('change', browserSync.reload );
 });
