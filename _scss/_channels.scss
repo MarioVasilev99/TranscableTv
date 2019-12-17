@@ -1,0 +1,44 @@
+.channels-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 1em 0;
+
+    button {
+        background-color: black;
+        color: white;
+        padding: 1em;
+        font-weight: bold;
+        border: none;
+        border-radius: 3.5em;
+        display: inline-block;
+        width: 20%;
+        height: 4em;
+
+        &:active {
+            cursor: pointer;
+            -webkit-box-shadow: 0px 0px 102px 16px rgba(84,161,242,1);
+            -moz-box-shadow: 0px 0px 102px 16px rgba(84,161,242,1);
+            box-shadow: 0px 0px 102px 16px rgba(84,161,242,1);
+        }
+    }
+}
+
+.basic-channels-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    img {
+        border: 1px solid black;
+        padding: 0.2em;
+        width: 200px;
+        height: 200px;
+    }
+}
