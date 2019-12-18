@@ -12,12 +12,22 @@
     justify-content: center;
     padding: 2em 0;
     color: var(--footer-font-color,rgb(237, 245, 224));
+
+    @include bp(mobile){
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .foot-item {
     width: 19em;
     height: auto;
     margin-right: 5em;
+    
+    @include bp(mobile){
+        margin: 0;
+        width: 80%;
+    }
 }
 
 .foot-item:last-child {
@@ -89,24 +99,37 @@
     font-size: 0.9em;
     color: white;
     padding: 0 3em;
+
+    @include bp(mobile){
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        font-size: 0.7em;
+    }
 }
 
-.pages ul{
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    padding: 0;
-}
+.pages {
+    @include bp(mobile){
+        display: none;
+    }
 
-.pages ul li {
-    padding-right: 1em;
-}
+    ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        padding: 0;
+    }
 
-.pages ul li:last-child {
-    padding-right: 0;
-}
+    ul li {
+        padding-right: 1em;
+    }
 
-.pages li a {
-    color: white;
-    text-decoration: none;
+    ul li:last-child {
+        padding-right: 0;
+    }
+
+    li a {
+        color: white;
+        text-decoration: none;
+    }
 }

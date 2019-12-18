@@ -60,7 +60,7 @@ gulp.task("watch", function() {
 
 
 gulp.task("deploy", gulp.series('jekyll', 'sass', function() {
-	return cp.spawn('git status && git commit -am "Added Responsive Sass Mixin and site style changes" && git pull && git push', { stdio: "inherit", shell: true });
+	return cp.spawn('git status && git commit -am "Added mobile responsive styles for home page, header and footer" && git pull && git push', { stdio: "inherit", shell: true });
 }));
 
 gulp.task("default", gulp.series('jekyll-dev', 'sass', 'watch'));

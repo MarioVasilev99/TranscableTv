@@ -38,6 +38,7 @@
 .nav-toggle {
     position: absolute;
     pointer-events: none;
+    visibility: hidden;
 
     &:checked + .nav {
         @include bp(mobile) {
@@ -45,6 +46,7 @@
             width: 100%;
             text-align: center;
             background-color: gray;
+            padding: 0;
         }
     }
 
