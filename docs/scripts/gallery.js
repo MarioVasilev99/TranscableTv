@@ -13,6 +13,11 @@ const hideAllGalleries = function(){
     fullGallery.style.display = "none";
 };
 
+window.onload = () => {
+    hideAllGalleries();
+    basicGallery.style.display = "grid";
+};
+
 const addShowHideListener = function(toggleButton, gallery){
     toggleButton.addEventListener("click", function(){
         hideAllGalleries();

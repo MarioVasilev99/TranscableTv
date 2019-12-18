@@ -6,11 +6,20 @@
     margin-top: 2em;
 }
 
+.heading {
+    text-align: center;
+}
+
 .packages {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
+    @include bp(mobile){
+        flex-direction: column;
+        align-items: center;
+    }
 
     .package {
         display: inline-block;
@@ -19,6 +28,10 @@
         background: white;
         margin: 20px;
         width: 17vw;
+
+        @include bp(mobile){
+            width: 80%;
+        }
 
         h2 {
             padding: 50px;
@@ -59,6 +72,7 @@
     max-width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     .additional-package {
         display: grid;
@@ -69,6 +83,13 @@
         border-radius: 10px;
         background: white;
         margin: 20px;
+
+        @include bp(mobile){
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            height: auto;
+        }
     }
 
     h2 {
@@ -90,6 +111,10 @@
     .price-wrapper {
         grid-column: 9 / span 2;
         display: flex;
+
+        @include bp(mobile) {
+            height: 5em;
+        }
 
         h3 {
             align-self: center;

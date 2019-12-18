@@ -23,6 +23,7 @@
 }
 
 .nav a {
+    width: 100%;
     display: block;
     padding: 0.5em 1em;
     color: #333;
@@ -51,6 +52,8 @@
     }
 
     &-label {
+        margin-right: 1em;
+        margin-bottom: 1em;
 
         @include bp(desktop) {
             display: none;
