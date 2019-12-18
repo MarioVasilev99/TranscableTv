@@ -3,12 +3,28 @@
     flex-wrap: wrap;
     width: var(--site-content-width, 65em);
     justify-content: space-between;
+    margin: 1.5em 0;
 }
 
 .contacts-info {
     display: flex;
     flex-direction: column;
     width: 40%;
+
+    a {
+        text-decoration: none;
+        color: #333;
+        font-weight: 400;
+
+        &:hover {
+            color: #4FB480;
+            font-weight: 700;
+        }
+    }
+
+    strong {
+        font-weight: 500;
+    }
 }
 
 .contacts-info h2 {

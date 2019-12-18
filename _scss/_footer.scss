@@ -15,7 +15,7 @@
 }
 
 .foot-item {
-    width: 17em;
+    width: 19em;
     height: auto;
     margin-right: 5em;
 }
@@ -33,6 +33,23 @@
 .footer-branding p{
     font-size: 0.88em;
     font-weight: 300;
+}
+
+.contacts {
+    a {
+        text-decoration: none;
+        color: white;
+        font-weight: 400;
+
+        &:hover {
+            color: #4FB480;
+            font-weight: 700;
+        }
+    }
+
+    strong {
+        font-weight: 500;
+    }
 }
 
 .contacts h4,
