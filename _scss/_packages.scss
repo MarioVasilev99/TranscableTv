@@ -133,13 +133,17 @@
         text-align: center;
         
         @include bp(small-desktop) {
-            align-self: center;
-            padding: 58px 30px;
+            padding-top: 1.8em;
+            place-self: center;
+            justify-self: stretch;
+            height: 100%;
         }
 
         @include bp(desktop) {
-            align-self: center;
-            padding: 70px;
+            padding-top: 2.2em;
+            place-self: center;
+            justify-self: stretch;
+            height: 100%;
         }
     }
 
