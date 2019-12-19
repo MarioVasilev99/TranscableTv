@@ -8,13 +8,38 @@
     @include bp(mobile) {
         display: none;
     }
+
+    @include bp(tablet) {
+        display: none;
+    }
 }   
 
 .nav ul {
     padding-bottom: 0;
 
-    @include bp(desktop) {
+    display: flex;
+    transition: top 300ms ease-in;
+
+    @include bp(small-desktop){
         display: flex;
+    }
+
+    @include bp(mobile){
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    @include bp(tablet){
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    @include bp(small-phone){
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
     }
 }
 
@@ -29,10 +54,15 @@
     color: #333;
     font-weight: 400;
     text-decoration: none;
+
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+
+    transform: perspective(1px) translateZ(0);
+    transition-duration: 0.3s;
+    transition-property: box-shadow;
 }
 
 .nav a:hover {
-    color: rgb(0, 136, 122);
     font-weight: 600;
 }
 
@@ -49,16 +79,37 @@
             background-color: gray;
             padding: 0;
         }
+
+        @include bp(tablet) {
+            display: block;
+            width: 100%;
+            text-align: center;
+            background-color: gray;
+            padding: 0;
+        }
+
     }
 
     &-label {
         margin-right: 1em;
         margin-bottom: 1em;
+        display: none;
 
-        @include bp(desktop) {
+        @include bp(small-desktop){
             display: none;
         }
 
+        @include bp(tablet){
+            display: block;
+        }
+
+        @include bp(small-phone){
+            display: block;
+        }
+
+        @include bp(mobile){
+            display: block;
+        }
     }
 }
 

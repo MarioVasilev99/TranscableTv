@@ -17,6 +17,7 @@ html, body {
     justify-content: space-evenly;
     align-items: center;
     padding-top: 1em;
+    padding-bottom: 1em;
     width: 100%;
     -webkit-box-shadow: 0px 12px 17px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 12px 17px 0px rgba(0,0,0,0.75);
@@ -27,14 +28,27 @@ html, body {
         flex-wrap: wrap;
         padding-bottom: 0;
     }
+
+    @include bp(tablet) {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-bottom: 0;
+    }
 }
 
 .site-branding {
 
     @include bp(mobile){
         align-self: flex-start;
-        margin-left: 0.5em;
+        margin-left: 1.5em;
         font-size: 0.7em;
+        margin-bottom: 1em;
+    }
+
+    @include bp(tablet){
+        align-self: flex-start;
+        margin-left: 1.5em;
+        font-size: 0.9em;
         margin-bottom: 1em;
     }
 
